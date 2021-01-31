@@ -86,7 +86,7 @@ const start = document.getElementById('start');
         const id = setInterval(()=>{
             if (time <=0)gameOver(id);
             count.textContent = time--;
-        },100);
+        },1000);
     }; 
     //キーボードのイベント処理
     start.addEventListener('click', () => {
